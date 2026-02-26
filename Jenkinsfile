@@ -18,7 +18,7 @@ pipeline {
         stage('Build Project') {
             steps {
                 echo 'Building project using Maven'
-                bat 'mvn clean compile'
+                bat 'mvn -s C:\\Windows\\System32\\config\\systemprofile\\.m2\\settings.xml clean compile'
             }
         }
 
