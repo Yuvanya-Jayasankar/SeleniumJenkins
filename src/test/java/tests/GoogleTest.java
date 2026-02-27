@@ -12,5 +12,6 @@ public class GoogleTest {
         driver.get("https://www.google.com");
         System.out.println("Google opened successfully");
         driver.quit();
+        
     }
 }
